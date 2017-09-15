@@ -1,0 +1,30 @@
+{
+  "name": "expressdemo",
+  "version": "1.0.0",
+  "description": "Express demo app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abijitsuresh/NodeJS-ExpressDemo.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "express",
+    "html"
+  ],
+  "author": "Abijit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abijitsuresh/NodeJS-ExpressDemo/issues"
+  },
+  "homepage": "https://github.com/abijitsuresh/NodeJS-ExpressDemo#readme",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4"
+  }
+}

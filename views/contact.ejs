@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" href="/assets/styles.css">
+    <title>Contact page</title>
+</head>
+<body>
+        <% include partials/nav.ejs %>
+    <h1>Contact US</h1>
+    <h2>Query string test</h2>
+    <form action="/contact" method="POST" id="contact-form">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" value="<%=qs.name %>">
+        <label for="age">Age</label>
+        <input type="text" name="age" id="age" value="<%=qs.age %>">
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

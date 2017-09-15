@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" href="/assets/styles.css">
+    <title>Sample HTML page</title>
+</head>
+<body>
+    <% include partials/nav.ejs %>
+    <h1>Welcome to home page of <%= id %> </h1>
+    <p>
+        Name: <%= data.name %>
+        Age: <%= data.age %>
+    </p>
+    <h2>Hobbies</h2>
+    <ul>
+        <% data.hobbies.forEach(function(item){ %>
+            <li><%= item %></li>
+        <% }); %>
+    </ul>
+</body>
+</html>
